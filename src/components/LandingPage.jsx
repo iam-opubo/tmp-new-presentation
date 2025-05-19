@@ -11,7 +11,7 @@ function LandingPage() {
         <div className="absolute bottom-0 right-0 w-72 h-72 md:w-96 md:h-96 bg-green-200 rounded-full opacity-20 blur-2xl transform translate-x-1/3 translate-y-1/3"></div>
 
         {/* Hero Section */}
-        <section className="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 md:px-6 pt-20 pb-10 relative gap-8">
+        <section className="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 md:px-6 pt-20 pb-10 relative gap-8"> 
           
           {/* Text Section */}
           <div className="max-w-lg relative z-10 text-center md:text-left">

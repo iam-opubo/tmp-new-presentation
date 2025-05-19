@@ -3,17 +3,20 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="bg-[#00CC66] text-black py-10 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* Left Section */}
         <div>
           {/* <h2 className="font-bold text-xl mb-4">WEB LOGO</h2> */}
-          <h2 className="font-extrabold text-2xl mb-4">WEB LOGO</h2>
+          {/* <h2 className="font-extrabold text-2xl mb-4">Design Agency</h2> */}
+          <div className="text-3xl font-bold ml-[-40px] mb-3">
+            Design<span className="text-orange-500">AGENCY</span>
+          </div>
 
-          <p className="text-sm mb-4">
+          <p className="text-sm mb-5 ml-[-40px]">
             Some footer text about the Agency. Just a little description to help people understand you better
           </p>
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 ml-[-40px]">
             <div className="w-11 h-11 bg-green-700 rounded-full flex items-center justify-center">
               <img src="img/Facebook.png" alt="Facebook" className="w-3 h-5" />
             </div>
@@ -27,7 +30,7 @@ function Footer() {
               <img src="img/Instagram.png" alt="Instagram" className="w-5 h-5" />
             </div>
           </div>
-          <p className="text-sm mt-6 font-bold">Copyright Design Agency 2022</p>
+          <p className="text-sm mt-6 font-bold ml-[-40px]">Copyright Design Agency 2022</p>
         </div>
 
         {/* Center Section */}

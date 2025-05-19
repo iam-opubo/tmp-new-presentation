@@ -5,7 +5,7 @@ function SubscribeSection() {
     <section className="bg-white py-20 px-4 flex justify-center">
       <div className="text-center max-w-xl w-full">
 
-        <p className="text-green-600 font-semibold text-sm mb-2">SUBSCRIBE</p>
+        <p className="text-green-600 font-semibold text-sm mb-2 text-xl">SUBSCRIBE</p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-2">
           Subscribe To Get The Latest <br /> News About Us
@@ -16,13 +16,13 @@ function SubscribeSection() {
         </p>
 
         
-        <div className="flex items-center border border-gray-400 rounded-full overflow-hidden w-full max-w-md mx-auto">
+        <div className="flex items-center border border-gray-400 rounded-2xl overflow-hidden w-full max-w-md mx-auto">
   <input
     type="text"
     placeholder="Enter Your Email Address"
-    className="flex-1 px-4 py-2 text-sm text-gray-700 placeholder-gray-500 focus:outline-none"
+    className="flex-1 px-4 py-4 text-sm text-gray-700 placeholder-gray-500 focus:outline-none"
   />
-  <div className="bg-orange-500 text-white text-sm font-medium px-6 py-2 rounded-full mr-1 cursor-pointer hover:bg-orange-600 transition-all">
+  <div className="bg-orange-500 text-white text-sm font-medium px-6 py-3 rounded-xl mr-1  cursor-pointer hover:bg-orange-600 transition-all">
     Subscribe
   </div>
 </div>
